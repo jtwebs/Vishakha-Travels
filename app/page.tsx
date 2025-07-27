@@ -1,3 +1,4 @@
+"use client"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -22,9 +23,27 @@ import {
   ChevronRight,
 } from "lucide-react"
 import Image from "next/image"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 
 export default function ForceTravellerSolapur() {
+  // Images for hero section carousel
+  const heroImages = [
+    { src: "ertiga.png", alt: "Ertiga 7 Seater" },
+    { src: "swiftdzire.jpeg", alt: "Swift Dzire 5 Seater" },
+    { src: "traxx.png", alt: "Cruiser 12 Seater" },
+    { src: "Group 1.png", alt: "Force Traveller 20 Seater" },
+    { src: "innova.png", alt: "Innova Crysta 7 Seater" },
+    { src: "bolero.png", alt: "Bolero 12 Seater" },
+  ]
+  const [heroIdx, setHeroIdx] = useState(0)
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setHeroIdx((prev) => (prev + 1) % heroImages.length)
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [])
+
   return (
     <div className="min-h-screen bg-cream-50">
       {/* Header */}
@@ -35,12 +54,12 @@ export default function ForceTravellerSolapur() {
               <Route className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-gray-900">Vishakha Tours & Travels</h1>
-              <p className="text-xs text-gray-600">Force Traveller Rental</p>
+              <h1 className="text-[0.75rem] sm:text-lg font-bold text-gray-900">Vishakha Tours & Travels</h1>
+              <p className="text-xs text-gray-600">Bus & Cars</p>
             </div>
           </div>
 
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-4">
             {/* <Button size="sm" className="bg-green-600 hover:bg-green-700 hidden md:flex">
               <MessageCircle className="h-4 w-4 mr-2" />
               WhatsApp
@@ -71,33 +90,31 @@ export default function ForceTravellerSolapur() {
           <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 items-center">
             {/* Image always visible and first on mobile */}
             <div className="relative w-full lg:w-1/2 flex-shrink-0">
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl block lg:hidden mb-4">
+              <div className="relative rounded-2xl overflow-hidden  block lg:hidden mb-4">
                 <Image
-                  src="/hero_img.jpeg"
-                  alt="Force Traveller Bus - Solapur Travels"
+                  src={"/" + heroImages[heroIdx].src}
+                  alt={heroImages[heroIdx].alt}
                   width={400}
                   height={240}
-                  className="w-full h-[340px]  object-cover"
+                  className="w-full h-[340px] object-contain mix-blend-darken transition-all duration-700"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                <div className="absolute bottom-2 left-2 text-white">
-                  <p className="text-xs font-medium">Our Premium Force Traveller</p>
-                  <p className="text-[10px] opacity-90">20-Seater • AC • All India Permit</p>
+                <div className="absolute inset-0 hidden bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute bottom-2 left-0 w-full flex justify-center items-center text-black">
+                  <p className="text-sm text-center font-medium">{heroImages[heroIdx].alt}</p>
                 </div>
               </div>
-              <div className="relative rounded-2xl overflow-hidden shadow-2xl hidden lg:block">
+              <div className="relative rounded-2xl overflow-hidden hidden lg:block">
                 <Image
-                  src="/hero_img.jpeg"
-                  alt="Force Traveller Bus - Solapur Travels"
+                  src={"/" + heroImages[heroIdx].src}
+                  alt={heroImages[heroIdx].alt}
                   width={700}
                   height={500}
-                  className="w-full h-[640px] object-cover"
+                  className="w-full h-[640px] object-contain mix-blend-darken transition-all duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <p className="text-sm font-medium">All Type of Cars & Bus available</p>
-                  <p className="text-xs opacity-90">20-Seater • AC • All India Permit</p>
+                <div className="absolute inset-0 hidden bg-gradient-to-t from-black/20 to-transparent"></div>
+                <div className="absolute bottom-4 left-0 w-full flex justify-center items-center text-black">
+                  <p className="text-sm font-medium text-center">{heroImages[heroIdx].alt}</p>
                 </div>
               </div>
             </div>
@@ -840,8 +857,8 @@ export default function ForceTravellerSolapur() {
                   <Route className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold">Solapur Travels</h3>
-                  <p className="text-sm text-gray-400">Force Traveller Rental</p>
+                  <h3 className="text-lg font-bold">Vishakha Tours & Travels</h3>
+                  <p className="text-sm text-gray-400">Bus & Car For Rental</p>
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
@@ -871,8 +888,8 @@ export default function ForceTravellerSolapur() {
             <div className="space-y-4">
               <h4 className="text-lg font-semibold">Address</h4>
               <div className="text-sm text-gray-400">
-                <p>Vishakha Travels</p>
-                <p>Shete Nagar, Laxmi Peth</p>
+                <p>Vishakha Tours & Travels</p>
+                <p>Sony Apartment Road, Damani Nagar</p>
                 <p>Solapur, Maharashtra 413001</p>
                 {/* <p className="mt-2">
                   <strong>GST:</strong> 27XXXXX1234X1XX
@@ -917,7 +934,7 @@ export default function ForceTravellerSolapur() {
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center">
             <p className="text-gray-400 text-sm">
-              © {new Date().getFullYear()} Vishakha Travels - Force Traveller Rental. All rights reserved. | Designed for
+              © {new Date().getFullYear()} Vishakha Tours & Travels - Force Traveller Rental. All rights reserved. | Designed for
               comfortable travel across India
             </p>
             <p className="text-gray-500 text-xs mt-2">
