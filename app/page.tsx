@@ -46,7 +46,7 @@ export default function ForceTravellerSolapur() {
               WhatsApp
             </Button> */}
             <a
-  href="https://api.whatsapp.com/send?phone=9130703656&text=Hello"
+  href="https://api.whatsapp.com/send?phone=919657224555&text=Hello"
   target="_blank"
   rel="noopener noreferrer"
 >
