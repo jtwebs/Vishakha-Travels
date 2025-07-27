@@ -35,7 +35,7 @@ export default function ForceTravellerSolapur() {
               <Route className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-gray-900">Vishakha Travels</h1>
+              <h1 className="text-lg font-bold text-gray-900">Vishakha Tours & Travels</h1>
               <p className="text-xs text-gray-600">Force Traveller Rental</p>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function ForceTravellerSolapur() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute bottom-2 left-2 text-white">
                   <p className="text-xs font-medium">Our Premium Force Traveller</p>
-                  <p className="text-[10px] opacity-90">17-Seater • AC • All India Permit</p>
+                  <p className="text-[10px] opacity-90">20-Seater • AC • All India Permit</p>
                 </div>
               </div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl hidden lg:block">
@@ -96,8 +96,8 @@ export default function ForceTravellerSolapur() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 text-white">
-                  <p className="text-sm font-medium">Our Premium Force Traveller</p>
-                  <p className="text-xs opacity-90">17-Seater • AC • All India Permit</p>
+                  <p className="text-sm font-medium">All Type of Cars & Bus available</p>
+                  <p className="text-xs opacity-90">20-Seater • AC • All India Permit</p>
                 </div>
               </div>
             </div>
@@ -106,10 +106,10 @@ export default function ForceTravellerSolapur() {
             <div className="space-y-4 w-full lg:w-1/2">
               <div className="space-y-2 md:space-y-4">
                 <Badge className="w-fit bg-orange-100 text-orange-800 border-orange-200 text-xs md:text-base">
-                  🚌 Premium Force Traveller Service
+                  🚌 All Type of Cars & Bus available
                 </Badge>
                 <h1 className="text-xl font-bold tracking-tight sm:text-2xl md:text-4xl text-gray-900">
-                  Book Your Private Force Traveller from
+                  Book Your <span className="text-orange-600">Bus</span> or <span className="text-orange-600">Car</span> from
                   <span className="text-orange-600"> Solapur</span> – Travel Anywhere in India
                 </h1>
                 <p className="text-base md:text-xl text-gray-600 font-medium">Comfort • Safety • Door-to-Door Service</p>
@@ -178,7 +178,7 @@ export default function ForceTravellerSolapur() {
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 mx-auto">
                   <Users className="h-8 w-8 text-orange-600" />
                 </div>
-                <CardTitle className="text-lg">17 Push-Back Seats</CardTitle>
+                <CardTitle className="text-lg">All Type of Cars & Bus available</CardTitle>
                 <CardDescription>Comfortable reclining seats for long journeys</CardDescription>
               </CardHeader>
             </Card>
@@ -232,12 +232,12 @@ export default function ForceTravellerSolapur() {
                 <div className="grid gap-6 md:grid-cols-2">
                   <div className="space-y-4">
                     <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                      <span className="font-medium text-gray-700">Seating Capacity</span>
-                      <span className="text-gray-900 font-semibold">17 Passengers</span>
+                      <span className="font-medium text-gray-700">Bus Availability</span>
+                      <span className="text-gray-900 font-semibold">20 Passengers</span>
                     </div>
                     <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                      <span className="font-medium text-gray-700">Engine</span>
-                      <span className="text-gray-900 font-semibold">2.6L Diesel</span>
+                      <span className="font-medium text-gray-700">Cars</span>
+                      <span className="text-gray-900 font-semibold">5-12 Seater</span>
                     </div>
                     <div className="flex justify-between items-center py-3 border-b border-gray-100">
                       <span className="font-medium text-gray-700">Air Conditioning</span>
@@ -278,88 +278,88 @@ export default function ForceTravellerSolapur() {
       <section className="py-16 bg-gray-50">
         <div className="container px-4 md:px-6">
           <div className="text-center space-y-4 mb-12">
-            <h2 className="text-3xl font-bold text-gray-900">Bus Gallery</h2>
-            <p className="text-lg text-gray-600">See our well-maintained Force Traveller</p>
+            <h2 className="text-3xl font-bold text-gray-900">Cars & Bus Gallery</h2>
+            <p className="text-lg text-gray-600">See our well-maintained Cars & Bus Gallery</p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="relative group">
               <Image
-                src="busgallery1.jpeg"
+                src="ertiga.png"
                 alt="Bus Exterior - Side View"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">Exterior - Clean & Well-Maintained</p>
+                <p className="text-white p-4 font-medium">Ertiga 7 Seater</p>
               </div>
             </div>
 
             <div className="relative group">
               <Image
-                src="busgallery2.jpeg"
+                src="swiftdzire.png"
                 alt="Bus Interior - Comfortable Seats"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">Interior - 17 Push-Back Seats</p>
+                <p className="text-white p-4 font-medium">Swift Dzire 5 Seater</p>
               </div>
             </div>
 
             <div className="relative group">
               <Image
-                src="busgallery3.jpeg"
+                src="traxx.png"
                 alt="Driver Area - Professional Setup"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">Driver Area - Professional Setup</p>
+                <p className="text-white p-4 font-medium">Cruiser 12 Seater</p>
               </div>
             </div>
 
             <div className="relative group">
               <Image
-                src="busgallery4.jpeg"
+                src="Group 1.png"
                 alt="Luggage Space - Ample Storage"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">Luggage Space - Ample Storage</p>
+                <p className="text-white p-4 font-medium">Force Traveller 20 Seater</p>
               </div>
             </div>
 
             <div className="relative group">
               <Image
-                src="busgallery5.jpeg"
+                src="innova.png"
                 alt="AC System - Climate Control"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">AC System - Full Climate Control</p>
+                <p className="text-white p-4 font-medium">Innova Crysta 7 Seater</p>
               </div>
             </div>
 
-            {/* <div className="relative group">
+            <div className="relative group">
               <Image
-                src="/placeholder.svg?height=300&width=400"
+                src="bolero.png"
                 alt="Entertainment - Music System"
                 width={400}
                 height={300}
                 className="w-full h-64 object-cover rounded-lg shadow-md group-hover:shadow-xl transition-shadow"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity rounded-lg flex items-end">
-                <p className="text-white p-4 font-medium">Entertainment - Music System & USB</p>
+                <p className="text-white p-4 font-medium">Bolero 12 Seater</p>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
