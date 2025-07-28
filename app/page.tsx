@@ -574,7 +574,7 @@ export default function ForceTravellerSolapur() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "Prashant bhai treated us like family during our Shirdi trip. The bus was clean, AC worked perfectly,
+                  "Vishakha Tours & Travels treated us like family during our Shirdi trip. The bus was clean, AC worked perfectly,
                   and he knew all the best places to stop for food. Highly recommended!"
                 </p>
                 <div className="flex items-center space-x-3">
@@ -582,7 +582,7 @@ export default function ForceTravellerSolapur() {
                     <span className="text-orange-600 font-semibold">RS</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Rajesh Sharma</p>
+                    <p className="font-semibold text-gray-900">Priya Sharma</p>
                     <p className="text-sm text-gray-600">Family Trip to Shirdi</p>
                   </div>
                 </div>
@@ -605,7 +605,7 @@ export default function ForceTravellerSolapur() {
                     <span className="text-green-600 font-semibold">AP</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Anita Patil</p>
+                    <p className="font-semibold text-gray-900">Sakshi Gautam</p>
                     <p className="text-sm text-gray-600">Group Trip to Goa</p>
                   </div>
                 </div>
@@ -628,7 +628,7 @@ export default function ForceTravellerSolapur() {
                     <span className="text-blue-600 font-semibold">VK</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Vikram Kulkarni</p>
+                    <p className="font-semibold text-gray-900">Sudip Durge</p>
                     <p className="text-sm text-gray-600">Corporate Trip to Pune</p>
                   </div>
                 </div>
@@ -651,7 +651,7 @@ export default function ForceTravellerSolapur() {
                     <span className="text-purple-600 font-semibold">SM</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Sunita Mehta</p>
+                    <p className="font-semibold text-gray-900">Durga Rage</p>
                     <p className="text-sm text-gray-600">Custom Maharashtra Tour</p>
                   </div>
                 </div>
@@ -674,7 +674,7 @@ export default function ForceTravellerSolapur() {
                     <span className="text-red-600 font-semibold">DG</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">Deepak Gupta</p>
+                    <p className="font-semibold text-gray-900">Shridhar Jadhav</p>
                     <p className="text-sm text-gray-600">Wedding Group to Hyderabad</p>
                   </div>
                 </div>
