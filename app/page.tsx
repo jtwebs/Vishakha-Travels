@@ -540,7 +540,7 @@ export default function ForceTravellerSolapur() {
               </div>
               <h3 className="text-lg font-semibold text-gray-900">Same Trusted Driver</h3>
               <p className="text-gray-600">
-                Prashant Patil personally drives every trip. Consistent, reliable service.
+                Vishakha Tours & Travel personally drives every trip. Consistent, reliable service.
               </p>
             </div>
 
@@ -579,7 +579,7 @@ export default function ForceTravellerSolapur() {
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
-                    <span className="text-orange-600 font-semibold">RS</span>
+                    <span className="text-orange-600 font-semibold">PS</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Priya Sharma</p>
@@ -597,12 +597,12 @@ export default function ForceTravellerSolapur() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "Excellent service for our Goa trip! The journey was comfortable, and Prashant ji was very
+                  "Excellent service for our Goa trip! The journey was comfortable, and Driver was very
                   professional. Fair pricing and no hidden charges. Will book again!"
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                    <span className="text-green-600 font-semibold">AP</span>
+                    <span className="text-green-600 font-semibold">SG</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Sakshi Gautam</p>
@@ -625,7 +625,7 @@ export default function ForceTravellerSolapur() {
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <span className="text-blue-600 font-semibold">VK</span>
+                    <span className="text-blue-600 font-semibold">SD</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Sudip Durge</p>
@@ -643,12 +643,12 @@ export default function ForceTravellerSolapur() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "Amazing experience! Prashant ji helped us plan our custom Maharashtra tour. His local knowledge made
+                  "Amazing experience! Vishakha Tours & Travels helped us plan our custom Maharashtra tour. His local knowledge made
                   our trip memorable. Trustworthy and reliable service."
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
-                    <span className="text-purple-600 font-semibold">SM</span>
+                    <span className="text-purple-600 font-semibold">DR</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Durga Rage</p>
@@ -666,12 +666,11 @@ export default function ForceTravellerSolapur() {
                   ))}
                 </div>
                 <p className="text-gray-700 mb-4">
-                  "Perfect for our wedding group travel to Hyderabad. Comfortable seats, good music system, and Prashant
-                  bhai ensured everyone reached safely. Highly satisfied!"
+                  "Perfect for our wedding group travel to Hyderabad. Comfortable seats, good music system, and ensured everyone reached safely. Highly satisfied!"
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
-                    <span className="text-red-600 font-semibold">DG</span>
+                    <span className="text-red-600 font-semibold">SJ</span>
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Shridhar Jadhav</p>
